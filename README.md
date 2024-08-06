@@ -22,8 +22,9 @@ Ensure you have the following software installed on your system:
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/yourusername/stream-clips-scraper.git
-   cd stream-clips-scraper
+   git clone https://github.com/asdfghjA1/m5-automation
+   cd m5-automation
+
 npm install
 sudo apt update
 sudo apt install yt-dlp
