@@ -106,7 +106,7 @@ const printAndDownloadLatest3Links = async (audioFormat) => {
     .on('data', (data) => results.push(data))
     .on('end', async () => {
       // Get the latest 3 items
-      const latest3 = results.slice(0, 3);
+      const latest3 = results.slice(0, 1);
       const latest3Links = latest3.map(item => item.Link);
 
       // Print the latest 3 links
